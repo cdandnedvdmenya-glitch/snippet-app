@@ -31,8 +31,8 @@ export default async function SnippetPage(props: SnippetPageProps) {
           ← Назад к списку
         </Link>
       </div>
-      <div className="flex m-4 justify-between items-center">
-        <h1 className="text-xl font-bold">{snippet.title}</h1>
+      <div className="flex m-4  justify-between items-center">
+        <h1 className="text-xl  font-bold">{snippet.title}</h1>
         <div className="flex gap-4">
           <Link 
             className="p-2 border border-gray-300 rounded" 
